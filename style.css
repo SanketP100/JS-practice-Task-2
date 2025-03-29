@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#home {
+    /* background-color : aqua; */
+    height: 15vw;
+    width: 15vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: -5%;
+    left: -3%;
+    z-index: 99;
+}
+
+#home img {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+#img {
+    height: 20vw;
+    width: 20vw;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 175px;
+    left: 175px;
+    transition: all ease .5s;
+    overflow: hidden;
+}
+
+#buttons {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-bottom: 2vw;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+i {
+    font-size: 20px;
+    padding: .5vw 1.5vw;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+#buttons i:active {
+    background-color: aquamarine;
+
+}
+
+#sidebtn i:active {
+    background-color: aquamarine;
+}
+
+
+#backimg {
+    height: 20vw;
+    width: 25vw;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+}
+
+#backimg img {
+    height: 15vw;
+}
